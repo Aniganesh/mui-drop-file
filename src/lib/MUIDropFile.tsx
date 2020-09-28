@@ -3,7 +3,7 @@ import Box from '@material-ui/core/Box/Box';
 import clsx from 'clsx';
 import React from 'react';
 import { useDropzone } from 'react-dropzone'
-import { MUIFileInput } from 'react-forms'
+import { attachField, MUIFileInput } from 'react-forms'
 
 export interface IMUIDropFile {
 	onDropFile: (files: any) => void
@@ -31,3 +31,5 @@ const useStyles = makeStyles<Theme>(() => createStyles({
 	inactiveClass: { background: 'lightgrey' },
 	activeClass: { backgroundColor: 'transparent' }
 }))
+//@ts-ignore
+attachField('dropFile', <MUIDropFile />)
