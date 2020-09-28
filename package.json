@@ -1,0 +1,67 @@
+{
+  "name": "mui-drop-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "jsnext:main": "dist/index.es.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist/ && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mithyalabs team",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "@material-ui/core": "^4.9.0",
+    "@material-ui/pickers": "^3.2.8",
+    "formik": "^2.1.1",
+    "lodash": "^4.17.15",
+    "react-places-autocomplete": "^7.2.1",
+    "@material-ui/icons": "^4.5.1",
+    "react-highlight-words": "^0.16.0",
+    "@material-ui/lab": "^4.0.0-alpha.40",
+    "axios": "^0.19.2",
+    "moment": "^2.24.0",
+    "react-forms": "file:../ml-react-forms"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.9.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/pickers": "^3.2.8",
+    "@types/lodash": "^4.14.149",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-places-autocomplete": "^7.2.6",
+    "@types/react-test-renderer": "^16.9.1",
+    "@types/autosuggest-highlight": "^3.1.0",
+    "@types/react-highlight-words": "^0.16.0",
+    "@material-ui/lab": "^4.0.0-alpha.40",
+    "react-highlight-words": "^0.16.0",
+    "axios": "^0.19.2",
+    "formik": "^2.1.1",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-places-autocomplete": "^7.2.1",
+    "react-scripts-ts": "^3.1.0",
+    "react-test-renderer": "^16.12.0",
+    "rollup": "^1.27.14",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^3.7.4",
+    "moment": "^2.24.0"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "react-dropzone": "^11.2.0",
+    "react-forms": "file:../ml-react-forms"
+  }
+}
