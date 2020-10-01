@@ -1,2 +1,2 @@
-export * from './lib/index'
-export default './lib/index'
+export * from './lib'
+export default './lib'

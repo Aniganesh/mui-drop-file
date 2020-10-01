@@ -7,8 +7,7 @@
     "module": "esnext", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
     "lib": [
       "es6",
-      "DOM",
-      "esnext",
+      "dom",
       "ES2016",
       "ES2017"
     ], /* Specify library files to be included in the compilation. */
@@ -67,7 +66,10 @@
     "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
   },
   "include": [
-    "src"
+    "src",
+    "src/lib/Utils.tsx",
+    "lib",
+    "rollup.config.js"
   ],
   "exclude": [
     "node_modules",
